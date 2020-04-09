@@ -1,0 +1,121 @@
+body {
+    background-image: url("http://www.nuuts.mn/web/uploads/4d86b5a03624b15b7b90e97df77eb6609b8788a2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+input {
+    padding: 4px;
+    border-radius: 5px;
+    width: 250px;
+    outline: 0px;
+    font-size: 22px;
+    border: 0px solid;
+}
+
+input[type=radio] {
+    width: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=submit] {
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    outline: 0px;
+    background-color: rgb(10, 101, 220);
+    border: 2px solid #01010c;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+input[type=button] {
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    outline: 0px;
+    background-color: #DC0A2D;
+    border: 2px solid #01010c;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+input:hover {
+    opacity: 1;
+    background-color: #4CAF50;
+}
+
+#registration {
+    width: 40%;
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 30px 20px;
+    text-align: right;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.back {
+    align-items: center;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.user {
+    color: red;
+    font-size: 22px;
+}
+
+#usercorr {
+    color: green;
+    font-size: 30px;
+}
+
+@media(max-width:600px) {
+    p {
+        font-size: 17px;
+    }
+    .user {
+        font-size: 15px;
+    }
+    #registration {
+        width: 100%;
+        background-color: #051019;
+        opacity: 0.8;
+        padding: 30px 0px;
+        text-align: right;
+        border-radius: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    h1 {
+        font-size: 20px;
+    }
+    input {
+        width: 100%;
+    }
+    input[type=submit] {
+        width: 100%;
+    }
+    input[type=button] {
+        width: 100%;
+    }
+    label {
+        font-size: 25px;
+    }
+    form {
+        width: 100%;
+    }
+}
